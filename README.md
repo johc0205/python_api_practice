@@ -7,12 +7,12 @@
  
 - 공공 데이터 포털의 계정이 필요하며 **국토교통부_건축인허가정보 서비스, 행정안전부_행정표준코드_법정동코드** 두 개의 활용 신청을 하고 고유 API 키를 아래 2번 INSERT_YOUR_KEY에 넣어줘야 합니다.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 먼저 코랩에 대부분 설치되어 있었으나 설치가 안된 라이브러리가 없어 설치해줍니다.
+1. 먼저 코랩에 대부분 설치되어 있었으나 설치가 안된 라이브러리가 없어 설치해줍니다.
 
 ```python
 pip install xmltodict
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 이후 callBuildingPractice.py를 실행시켜 csv 파일을 구글 드라이브 내에 저장합니다.
+2. 이후 callBuildingPractice.py를 실행시켜 csv 파일을 구글 드라이브 내에 저장합니다.
 
 - 구글 드라이브 해당 폴더에 가 저장되었는지 확인합니다.(폴더가 없는 경우 에러가 날 수 있으니 폴더를 생성하거나 경로를 변경하세요)
